@@ -1,6 +1,5 @@
 // general imports
 import "./index.css";
-import { useCallback, useEffect, useState } from "react";
 // components imports
 import Mower from "./Mower/index";
 
