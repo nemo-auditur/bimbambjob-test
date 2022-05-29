@@ -1,0 +1,13 @@
+.headerContainer {
+  grid-column: 3/4;
+  grid-row: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContainer h1 {
+  font-family: var(--font-bold);
+  color: var(--clr-yellow);
+  text-align: center;
+}

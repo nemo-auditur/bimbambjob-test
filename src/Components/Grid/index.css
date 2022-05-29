@@ -1,0 +1,60 @@
+/* Containers */
+.gridContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column-reverse;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  border: 1px solid white;
+}
+
+.rowContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Cells */
+.cells {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+@media (max-width: 1024px) {
+  .cells {
+    height: 1.5em;
+    width: 1.5rem;
+  }
+}
+/* cardinalPoints */
+.westPoint {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eastPoint {
+  grid-column: 4/5;
+  grid-row: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.northPoint {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.southPoint {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
